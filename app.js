@@ -63,7 +63,7 @@ function draw() {
 
   // Eyes on head
   if (snake[0]) {
-    ctx.fillStyle = '#ffffff';
+    ctx.fillStyle = '#fffb02';
     const ex = dir.x === 1 ? 13 : dir.x === -1 ? 7 : 11;
     const ey = dir.y === 1 ? 13 : dir.y === -1 ? 7 : 11;
     const ox = dir.x === 0 ? -3 : 0;
