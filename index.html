@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snake</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="game-wrap">
+    <div id="score-bar">
+      Score: <span id="score">0</span>
+      &nbsp; High Score: <span id="hi">0</span>
+    </div>
+
+    <canvas id="c" width="360" height="360"></canvas>
+
+    <div id="msg">Press Start or Space to play</div>
+
+    <div id="controls">
+      <button id="btn-start">Start</button>
+      <button id="btn-pause">Pause</button>
+      <select id="spd">
+        <option value="150">Slow</option>
+        <option value="100" selected>Normal</option>
+        <option value="60">Fast</option>
+      </select>
+    </div>
+
+    <div id="dpad">
+      <div></div>
+      <button id="du">▲</button>
+      <div></div>
+      <button id="dl">◀</button>
+      <button id="dd">▼</button>
+      <button id="dr">▶</button>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
