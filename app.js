@@ -83,7 +83,7 @@ function draw() {
   }
 
   // Food
-  ctx.fillStyle = '#D85A30';
+  ctx.fillStyle = '#f2d411';
   roundRect(
     ctx,
     food.x * CELL + 2,
